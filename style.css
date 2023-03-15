@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: aqua;
+}
+
+/* Heading... */
+h1{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: -100px;
+    margin-top: 5%;
+    text-shadow: 1px 1px 5px rgb(56, 55, 55);
+}
+
+/* Calcultor Outer Part */
+.container{
+    margin: 10% auto;
+    width: 20%;
+    padding: 2% 1%;
+    border-radius: 3%;
+    background-color: black;
+    box-shadow: 0 0 10px black;
+}
+
+
+/* Result of the calculator */
+.result{
+    padding: 0.2rem;
+    margin-bottom: 10%;
+}
+#show{
+    border: none;
+    text-align: right;
+    font-size: 1.6vw;
+    padding: 0 5px;
+}
+
+
+/* Buttons [9-0] */
+.btn{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-bottom: 5%;
+}
+.btnNum{
+    padding: 3px;
+    margin: 5px;
+    font-size: 27px;
+}
+
+
+/* Operators [+, -, /, *, =] */
+.operations{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 24%;
+}
+.operator{
+    font-size: 20px;
+    margin: 5px;
+}
+.equal{
+    width: 17.5vw;
+    font-size: 20px;
+}
