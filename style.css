@@ -66,3 +66,9 @@ h1{
     width: 220px;
     font-size: 20px;
 }
+
+@media screen and (max-width: 1100px){
+    #show{
+        font-size: 13px;
+    }
+}
