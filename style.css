@@ -18,9 +18,9 @@ h1{
 
 /* Calcultor Outer Part */
 .container{
-    margin: 10% auto;
-    width: 20%;
-    padding: 2% 1%;
+    margin: 120px auto;
+    width: 270px;
+    padding: 20px 25px;
     border-radius: 3%;
     background-color: black;
     box-shadow: 0 0 10px black;
@@ -35,7 +35,7 @@ h1{
 #show{
     border: none;
     text-align: right;
-    font-size: 1.6vw;
+    font-size: 20px;
     padding: 0 5px;
 }
 
@@ -63,6 +63,6 @@ h1{
     margin: 5px;
 }
 .equal{
-    width: 17.5vw;
+    width: 220px;
     font-size: 20px;
 }
