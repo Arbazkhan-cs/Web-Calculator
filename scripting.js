@@ -31,3 +31,20 @@ cal.onkeyup = function (event) {
         solve();
     }
 }
+
+// Adding Sound to the buttons
+for(let i=0; i<12; i++){
+    document.getElementsByClassName("btnNum")[i].addEventListener('click', ()=>{
+                let sound = new Audio('btn_sound.mp3');
+                sound.play();
+    });
+}
+
+// Adding Sound to the Operators Buttons
+for(let i=0; i<5; i++){
+    document.getElementsByClassName("operator")[i].addEventListener('click', ()=>{
+                let sound = new Audio('btn_sound.mp3');
+                sound.play();
+    });
+}
+
